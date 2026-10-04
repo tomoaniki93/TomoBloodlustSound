@@ -3,22 +3,6 @@
 Standalone Bloodlust / Heroism sound alerts, extracted from TomoMod by **TomoAniki**.
 Modern purple-and-teal Sound Studio, French/English UI, and five original sound presets.
 
-## One-time sound installation
-
-The code ZIP cannot include the five OGG binaries in this environment. Choose **one** method to
-place the *unaltered* originals inside `TomoBloodlustSound/Assets/Sounds/`:
-
-- **Windows (easy):** double-click `Tools/Installer-les-sons.bat` with an Internet connection. It calls the PowerShell installer; it first copies the sounds from a neighboring TomoMod folder when possible, then downloads anything missing from the author's GitHub repository.
-- **macOS / Linux / Steam Deck:** run `python3 Tools/install_sounds.py` from anywhere.
-- **Manual:** copy `Assets/Sounds/*.ogg` from your TomoMod installation into the standalone's `Assets/Sounds/` directory. Preserve the filenames.
-
-The original audio source and license are:
-https://github.com/tomoaniki93/TomoMod/tree/main/Assets/Sounds
-
-The scripts verify each file's original Git blob SHA-1 (including its `blob <length>\0`
-header), so partial or incorrect downloads are not silently installed. The sound files
-are copied unchanged and never transcoded.
-
 ## Installation
 
 1. Extract the release ZIP into `World of Warcraft/_retail_/Interface/AddOns/` or Forever's `_classic_beta_/Interface/AddOns/`.
