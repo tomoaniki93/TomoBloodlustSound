@@ -1,0 +1,17 @@
+## Interface: 120105, 120100, 16001
+## Title: |cffac79ffTomo|r|cff55ead9Bloodlust|r|cffffffffSound|r
+## Notes: Independent Bloodlust / Heroism sound alerts with five audio presets and a modern sound studio.
+## Notes-frFR: Alertes sonores indépendantes pour la Soif de sang / Héroïsme et studio audio moderne.
+## Author: TomoAniki
+## Version: 1.2.0
+## Category: |cffac79ffTomo|r|cffffffffSuite|r
+## SavedVariables: TomoBloodlustSoundDB
+## IconTexture: Interface\AddOns\TomoBloodlustSound\Assets\Textures\Icon.tga
+
+Locales.lua
+Compat.lua
+Core.lua
+Libs\LibTomoKeystoneSync-1.0\LibTomoKeystoneSync-1.0.lua
+KeystoneSync.lua
+Detection.lua
+GUI.lua
